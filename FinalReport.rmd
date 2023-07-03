@@ -45,6 +45,15 @@ If not, then whose view differs from whom??
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
 
+```{r}
+barchartGC(~race + cappun,data=mydata)
+barchartGC(~race + cappun,data=mydata, type="percent")
+
+```
+ 
+  Both plots aim to visualize the distribution of observations across different race and cappun (capital punishment) categories. The first plot shows the count of observations, while the second plot provides a relative comparison of proportions as percentages. Whites are the group that favors capital punishment in general, it indicates that a higher proportion or percentage of white individuals support the use of capital punishment compared to individuals from other racial groups. 
+
+
 
 ## Now with The Most data (fewer variables gives more data points)
 
