@@ -87,9 +87,24 @@ fisher.test(table1)
 The p-value is still significant not as dramatic as the previous branch so we will still need to run a fisher xy test.
 
 
+```{r}
+fisherXY(mydata$race,mydata$cappun,printAll = TRUE)
+```
+
+The white and black race are different. There is no difference between white and other or black and other. The only p-value that is significant is between the white and black race, even if it had less data.
+
 
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+ For this data, the white race still holds the highest value of people that are for capital punishment, but with the black race having the highest percentage that are opposed of capital punishment. The only difference out of all of these graphs and stats, are between the black and white race based on the data shown and their p-values. So, yes, there is a difference on the number 2 branch than the master and it shows above the reason why. But overall, the white race still holds the highest percentage on both branches for favoring capital punishment.
+
+
+
+
+
+
+
