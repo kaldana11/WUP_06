@@ -90,9 +90,14 @@ fisher.test(table1)
 Something is going soon because the p value is low at .00000000000000022 so we need ro run the fisher xy test.
 
 
+```{r}
+fisherXY(mydata$race,mydata$cappun)
+```
+Every race is different than with this particular data. Still having a very low p value. With the white race still holding the highest percentage in favor of capital punishment. 
 
 
 ## More data version
+
 
 
 # Discussion and Conclusion
