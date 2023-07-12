@@ -91,7 +91,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-Something is going soon because the p value is low at .00000000000000022 so we need to run the fisher xy test.
+Something is going soon because the p value is low at .00000000000000022 so we need to run the fisher xy test. The p-value is still significant not as dramatic as the previous branch so we will still need to run a fisher xy test. Pearson's chi-squared test yielded a test statistic of 19.477 with 2 degrees of freedom, and a remarkably small p-value of 5.896e-05. This significant p-value provides strong evidence against the null hypothesis, suggesting that race and attitudes toward capital punishment are associated in the dataset.The two-sided alternative hypothesis implies that there is a discernible difference in attitudes toward capital punishment among the racial groups. 
 
 
 ```{r}
