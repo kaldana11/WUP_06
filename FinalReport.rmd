@@ -12,6 +12,7 @@ output: html_document
 
 
 ```{r include=FALSE,echo=FALSE}
+source(file="fisherXY.R")
 require(tidyverse)
 require(tigerstats)
 require(knitr)
