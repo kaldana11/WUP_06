@@ -97,7 +97,7 @@ Something is going soon because the p value is low at .00000000000000022 so we n
 ```{r}
 fisherXY(mydata$race,mydata$cappun)
 ```
-Every race is different than with this particular data. Still having a very low p value. With the white race still holding the highest percentage in favor of capital punishment. 
+Every race is different than with this particular data. Still having a very low p value. With the white race still holding the highest percentage in favor of capital punishment.This test evaluates whether there is a significant association between race and attitudes toward capital punishment based on the given dataset.The white and black race are different. There is no difference between white and other or black and other. The only p-value that is significant is between the white and black race, even if it had less data.
 
 
 ## More data version
