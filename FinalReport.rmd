@@ -107,3 +107,8 @@ Every race is different than with this particular data. Still having a very low 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The white race here still holds the highest percentage for people who are for capital punishment rather than the other races. The p-values are still low but there are differences between all the races, not just 2 on the number 2 branch with all the races still having different data.
+
+
+
